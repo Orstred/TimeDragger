@@ -6,7 +6,7 @@ public class Switch : MonoBehaviour
 {
 
     public Interactable Movable;
-
+    public bool STAYON;
     private void OnTriggerStay(Collider other)
     {
         if (other.transform.tag.Contains("HasWeight"))
@@ -21,7 +21,8 @@ public class Switch : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.transform.tag.Contains("HasWeight"))
+
+        if (other.transform.tag.Contains("HasWeight") && !STAYON)
         {
 
 
@@ -30,6 +31,7 @@ public class Switch : MonoBehaviour
 
 
         }
+
     }
 
 }

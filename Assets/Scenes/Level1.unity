@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Movable: {fileID: 1364830528}
+  STAYON: 0
 --- !u!136 &89469377
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -596,14 +597,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3743976353469701909, guid: c8229e79d18c19440a27d3e70302db1f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.875
-      objectReference: {fileID: 0}
-    - target: {fileID: 3783023503561423091, guid: c8229e79d18c19440a27d3e70302db1f, type: 3}
-      propertyPath: Jumpheight
-      value: 0.62
-      objectReference: {fileID: 0}
     - target: {fileID: 3783023503588033082, guid: c8229e79d18c19440a27d3e70302db1f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1628,6 +1621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Movable: {fileID: 1766640858}
+  STAYON: 1
 --- !u!136 &1469872739
 CapsuleCollider:
   m_ObjectHideFlags: 0
