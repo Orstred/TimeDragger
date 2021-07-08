@@ -224,10 +224,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 3
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -382,6 +382,7 @@ GameObject:
   - component: {fileID: 3783023503603489221}
   - component: {fileID: 3783023503603489218}
   - component: {fileID: 3783023503603489220}
+  - component: {fileID: 7314821866718403174}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -434,6 +435,21 @@ MonoBehaviour:
   DialogueBox: {fileID: 0}
   currentinteraction: {fileID: 0}
   hasbox: 0
+--- !u!114 &7314821866718403174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3783023503603489219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd7a08553d61d5a4ba52dc5fa0d2abb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextBoxBounds: {fileID: 0}
+  DialogueBox: {fileID: 0}
+  DialogueFile: {fileID: 11400000, guid: 57a440cf02b22384181144383b1a8d90, type: 2}
 --- !u!1 &3783023503787591876
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,13 +542,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3783023503941538766}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19658788, y: -2.2522683, z: -16.99279}
+  m_LocalRotation: {x: -0.0035081788, y: 0.9999915, z: -0.002216598, w: -0.000007776288}
+  m_LocalPosition: {x: -0.19658788, y: -0.87, z: -1.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3783023503588033082}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.254, y: 180, z: -0.402}
 --- !u!20 &3783023503941538752
 Camera:
   m_ObjectHideFlags: 0

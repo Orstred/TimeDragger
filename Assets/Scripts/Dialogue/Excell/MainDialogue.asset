@@ -1,0 +1,558 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbf5b4e6076d7f498297204c23a35f9, type: 3}
+  m_Name: MainDialogue
+  m_EditorClassIdentifier: 
+  Sheet1:
+  - Index: 1
+    RouteA: 
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 2
+    RouteA: 
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 3
+    RouteA: "Somebody once told me\n the world is gonna roll \nme I ain\u2019t the
+      sharpest\n"
+    RouteB: you are on route b
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 4
+    RouteA: 'Tool in the shed, she was
+
+      Looking kinda dumb whit
+
+      A finger
+      and her thumb'
+    RouteB: you are on route b1
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 5
+    RouteA: In the shape of an L in her forehead
+    RouteB: you are on route b2
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 6
+    RouteA: 
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  Sheet2:
+  - Index: 1
+    RouteA: 
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 2
+    RouteA: 
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 3
+    RouteA: An the years start coming
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 4
+    RouteA: and they dont stop coming
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  Sheet3:
+  - Index: 1
+    RouteA: 
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 2
+    RouteA: 
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 3
+    RouteA: "Somebody once told me\n the world is gonna roll \nme I ain\u2019t the
+      sharpest\n"
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 4
+    RouteA: 'Tool in the shed, she was
+
+      Looking kinda dumb whit
+
+      A finger
+      and her thumb'
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 5
+    RouteA: In the shape of an L in her forehead
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  - Index: 6
+    RouteA: 
+    RouteB: 
+    RouteC: 
+    RouteD: 
+    RouteE: 
+    RouteF: 
+    RouteG: 
+    RouteH: 
+    RouteI: 
+    RouteJ: 
+    RouteK: 
+    RouteL: 
+    RouteM: 
+    RouteN: 
+    RouteO: 
+    RouteP: 
+    RouteQ: 
+    RouteR: 
+    RouteS: 
+    RouteT: 
+    RouteU: 
+    RouteV: 
+    RouteW: 
+    RouteX: 
+    RouteY: 
+    RouteZ: 
+  Sheet4: []
+  Sheet5: []
+  Sheet6: []
+  Sheet7: []
+  Sheet8: []
+  Sheet9: []
+  Sheet10: []
+  Sheet11: []
+  Sheet12: []
+  Sheet13: []
+  Sheet14: []
+  Sheet15: []
+  Sheet16: []
+  Sheet17: []
+  Sheet18: []
+  Sheet19: []
+  Sheet20: []
+  Sheet21: []
+  Sheet22: []
+  Sheet23: []
+  Sheet24: []
+  Sheet25: []
+  Sheet26: []
+  Sheet27: []
+  Sheet28: []
+  Sheet29: []
+  Sheet30: []
+  Sheet31: []
+  Sheet32: []
+  Sheet33: []
+  Sheet34: []
+  Sheet35: []
+  Sheet36: []
+  Sheet37: []
+  Sheet38: []
+  Sheet39: []
+  Sheet40: []
+  Sheet41: []
+  Sheet42: []
+  Sheet43: []
+  Sheet44: []
+  Sheet45: []
+  Sheet46: []
+  Sheet47: []
+  Sheet48: []
+  Sheet49: []
+  Sheet50: []
+  Sheet51: []
+  Sheet52: []
+  Sheet53: []
+  Sheet54: []
+  Sheet55: []
+  Sheet56: []
+  Sheet57: []
+  Sheet58: []
+  Sheet59: []
+  Sheet60: []
+  Sheet61: []
+  Sheet62: []
+  Sheet63: []
+  Sheet64: []
+  Sheet65: []
+  Sheet66: []
+  Sheet67: []
+  Sheet68: []
+  Sheet69: []
+  Sheet70: []
+  Sheet71: []
+  Sheet72: []
+  Sheet73: []
+  Sheet74: []
+  Sheet75: []
+  Sheet76: []
+  Sheet77: []
+  Sheet78: []
+  Sheet79: []
+  Sheet80: []
+  Sheet81: []
+  Sheet82: []
+  Sheet83: []
+  Sheet84: []
+  Sheet85: []
+  Sheet86: []
+  Sheet87: []
+  Sheet88: []
+  Sheet89: []
+  Sheet90: []
+  Sheet91: []
+  Sheet92: []
+  Sheet93: []
+  Sheet94: []
+  Sheet95: []
+  Sheet96: []
+  Sheet97: []
+  Sheet98: []
+  Sheet99: []
+  Sheet100: []
