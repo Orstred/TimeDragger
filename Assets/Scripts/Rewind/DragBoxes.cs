@@ -22,12 +22,16 @@ public class DragBoxes : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.Return))
         {
+            InteractionManager.instance.hasbox = false;
             Collider[] hitColliders = Physics.OverlapBox(dragcenter + transform.position, boxsize, Quaternion.identity);
             int i = 0;
             while (i < hitColliders.Length)
             {
                 if (hitColliders[i].tag == "Box HasWeight")
                 {
+                    hitColliders[i].GetComponent<Rigidbody>().isKinematic = true;
+                    hitColliders[i].GetComponent<BoxPickup>().enabled = false;
+                    hitColliders[i].GetComponent<HeldBox>().enabled = false;
                     hitColliders[i].transform.parent = transform;
                 }
                 i++;
@@ -55,6 +59,8 @@ public class DragBoxes : MonoBehaviour
         int i = 0;
         foreach(BoxPickup b in lit)
         {
+            b.GetComponent<Rigidbody>().isKinematic = false;
+            b.GetComponent<BoxPickup>().enabled = true;
             b.transform.parent = null;
         }
 
