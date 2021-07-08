@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-
+    public bool Lookat = false;
     Transform player;
     public Vector3 offset;
     public float CameraSmooth;
@@ -17,6 +17,7 @@ public class CameraFollow : MonoBehaviour
 
     private void Update()
     {
+        if(Lookat)
         transform.LookAt(player);
     }
     // Update is called once per frame

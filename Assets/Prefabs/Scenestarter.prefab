@@ -383,6 +383,7 @@ GameObject:
   - component: {fileID: 3783023503603489218}
   - component: {fileID: 3783023503603489220}
   - component: {fileID: 7314821866718403174}
+  - component: {fileID: 8357501908850234816}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -450,6 +451,85 @@ MonoBehaviour:
   TextBoxBounds: {fileID: 0}
   DialogueBox: {fileID: 0}
   DialogueFile: {fileID: 11400000, guid: 57a440cf02b22384181144383b1a8d90, type: 2}
+--- !u!114 &8357501908850234816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3783023503603489219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 404ba79de3c2cb84baae78dc1c86e036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 0}
+    name: MainTheme
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: LevelTheme
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: Walk
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: Jump
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: Land
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: PickupBox
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: DropBox
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: ActivateSwitch
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: DeactivateSwitch
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: OpenDoor
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 0}
+    name: CloseDoor
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &3783023503787591876
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,6 +692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7fa846e230e0c74abb71c86b8c8ba86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Lookat: 1
   offset: {x: 0, y: -4.26, z: -7.61}
   CameraSmooth: 7
 --- !u!114 &4088870458554205614
@@ -629,6 +710,21 @@ MonoBehaviour:
   dragcenter: {x: 0, y: 0, z: 0}
   boxsize: {x: 2.17, y: 2.15, z: 2.1}
   VFX: {fileID: 9097835734985705079}
+--- !u!114 &1110061087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9097835734985705079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7fa846e230e0c74abb71c86b8c8ba86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lookat: 0
+  offset: {x: 0, y: 0, z: 0}
+  CameraSmooth: 100
 --- !u!1001 &3783023504444575273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -636,6 +732,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3783023503588033082}
     m_Modifications:
+    - target: {fileID: 5349711979151018072, guid: f889f0d3a6f178a409cb1ab9567336f1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5349711979151018074, guid: f889f0d3a6f178a409cb1ab9567336f1, type: 3}
       propertyPath: m_RootOrder
       value: 3
