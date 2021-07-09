@@ -35,7 +35,7 @@ public class MoveOnSwitch : Interactable
         }
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.localPosition, MoveTo);
-       Gizmos.DrawWireCube(MoveTo, Vector3.Scale(transform.GetComponent<MeshFilter>().sharedMesh.bounds.size, transform.localScale));
+        Gizmos.DrawWireCube(MoveTo, Vector3.Scale(transform.GetComponent<MeshFilter>().sharedMesh.bounds.size, transform.localScale));
      
     }
 }

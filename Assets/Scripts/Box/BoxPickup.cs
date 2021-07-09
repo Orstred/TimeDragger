@@ -14,6 +14,7 @@ public class BoxPickup : Interactable
             InteractionManager.instance.hasbox = true;
             PlayerCharacter.GetComponent<PlayerCharacter>().Pickupbox(gameObject);
             GetComponent<HeldBox>().enabled = true;
+            OnInteractionDistanceExit();
             this.enabled = false;
            
         }
